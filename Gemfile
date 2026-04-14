@@ -17,7 +17,7 @@ gem 'puma',            '5.6.8'
 gem 'rails',           '7.0.4.3'
 gem 'sassc-rails',     '2.1.2'
 gem 'sprockets-rails', '3.4.2'
-gem 'sqlite3',         '1.6.1'
+gem 'mysql2',          '0.5.6'
 gem 'stimulus-rails',  '1.2.1'
 gem 'turbo-rails',     '1.4.0'
 gem 'will_paginate', '3.3.1'
@@ -43,10 +43,6 @@ group :test do
   gem 'rails-controller-testing', '1.0.5'
   gem 'selenium-webdriver',       '4.8.3'
   gem 'webdrivers',               '5.2.0'
-end
-
-group :production do
-  gem 'pg', '1.3.5'
 end
 
 # Windows ではタイムゾーン情報用の tzinfo-data gem を含める必要があります
