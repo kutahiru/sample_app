@@ -1,0 +1,13 @@
+.git
+.gitignore
+.DS_Store
+.bundle
+log/*
+tmp/*
+tmp/pids/*
+tmp/cache/*
+tmp/storage/*
+vendor/bundle
+node_modules
+storage/*
+!.keep
